@@ -10,8 +10,7 @@ if [ $# -ne 1 -a $# -ne 2 ]; then
     exit 1
 fi
 
-dir=`dirname $0`
-. ${dir}/config
+. ~/.pg_getbkp
 
 DB_NAME=$1
 [ $# -eq 2 ] && BACKUP_DIR=$2
