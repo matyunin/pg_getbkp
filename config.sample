@@ -1,0 +1,4 @@
+PG_HOST=postgres.example.com
+SSH_USER=sshusername
+SSH_PORT=2222
+BACKUP_DIR=~/backup
